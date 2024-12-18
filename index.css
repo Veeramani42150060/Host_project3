@@ -1,0 +1,50 @@
+*{ 
+    margin: 0px;
+    padding:0px ;
+}
+.main{
+  
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.grid-containe{
+    background-image: url(./OIP.jpeg);
+    
+    width:100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto auto ;
+   
+    
+    
+}
+.grid-containe {
+    padding: 20px;
+    font-size: 20px;
+}
+.box1{
+    background-color: beige; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:4rem;
+    border-radius: 20px;
+}
+.box2{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+#click{
+    border-radius: 20px;
+    color: red;
+    background-color: aliceblue;
+}

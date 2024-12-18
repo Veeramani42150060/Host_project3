@@ -1,0 +1,170 @@
+*{ 
+    margin: 0px;
+    padding:0px ;
+}
+.main{
+    background-image: url('./OIP.jpeg');
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.grid-containe{
+    background-color: rgb(240, 229, 234);
+    width:70%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    border-radius: 30px;
+    
+    
+}
+.grid-containe >div{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.box1{
+    font-size: 3.5rem;
+    color: rgb(22, 16, 16);
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choices{
+margin-bottom: 5px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+padding: 20px;
+}
+.choices button{
+    font-size: 3rem;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    background-color: rgb(213, 219, 224);
+    font-size: 30px;
+
+}
+.choices button:hover{
+    background-color: rgb(136, 141, 141);
+}
+#computerDisplay,#playerDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(12, 13, 13);
+
+}
+#resultDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    grid-row: 7/8;
+}
+.scoreDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.greentext,#PlayerscoreDisplay{
+    color: rgb(44, 230, 44);
+}
+.redtext,#ComouterscoreDisplay{
+    color: rgb(235, 14, 14);
+}
+
+
+@media only screen and (max-width:500px){
+
+
+}
+.main{
+    background-image: url('./OIP.jpeg');
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.grid-containe{
+    background-color: rgb(240, 229, 234);
+    width:85%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto auto  auto auto auto auto auto auto auto;
+    border-radius: 30px;
+    
+    
+}
+.grid-containe >div{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.box1{
+    font-size: 3.5rem;
+    color: rgb(22, 16, 16);
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choices{
+margin-bottom: 5px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+padding: 10px;
+}
+.choices button{
+    font-size: 100px;
+    border-radius: 20px;
+    background-color: rgb(213, 219, 224);
+    justify-content: space-evenly;
+    font-size: 30px;
+
+}
+.choices button:hover{
+    background-color: rgb(136, 141, 141);
+}
+#computerDisplay,#playerDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#resultDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    grid-row: 7/8;
+}
+.ScoreDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.greentext,#PlayerscoreDisplay{
+    color: rgb(44, 230, 44);
+}
+.redtext,#ComputerscoreDisplay{
+    color: rgb(235, 14, 14);
+}
+
+
